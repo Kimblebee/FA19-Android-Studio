@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+
+    <TextView
+        android:id="@+id/infoView"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:text="refresh to view contents sorry idk y" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+
+            android:paddingHorizontal="10dp"
+            android:src="@drawable/baseline_edit_white_36dp"
+            app:backgroundTint="#03A9F4"
+            app:rippleColor="#3F51B5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+
+            android:paddingHorizontal="10dp"
+            android:src="@drawable/baseline_arrow_forward_white_24dp"
+            app:rippleColor="#88253C" />
+    </LinearLayout>
+
+</LinearLayout>

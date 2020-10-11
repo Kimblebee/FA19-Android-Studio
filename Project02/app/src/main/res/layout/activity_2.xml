@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Items"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="222dp"
+        android:layout_height="49dp"
+        android:text="Enter Name and quantity of the Item to be added to the list"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/nameEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name of Item"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <EditText
+        android:id="@+id/quantityEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addCallbackFn"
+        android:text="Add"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:text="To view history of data entered or deleted please click button below"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="503dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

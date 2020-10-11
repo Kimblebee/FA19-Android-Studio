@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="noteRed">#FF80AB</color>
+    <color name="noteOrange">#FFD180</color>
+    <color name="noteGreen">#B8FF73</color>
+    <color name="noteBlue">#80D8FF</color>
+    <color name="notePurple"> #B388FF</color>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NoteList">
+
+    <EditText
+        android:id="@+id/et_searchbar"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Search for something..."
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/lv_note_list"
+        android:layout_width="360dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
